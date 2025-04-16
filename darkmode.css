@@ -1,0 +1,104 @@
+/* Dark mode styles for all pages */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode header,
+body.dark-mode footer,
+body.dark-mode nav,
+body.dark-mode div {
+    background-color: #1f1f1f;
+}
+
+body.dark-mode a {
+    color: #90caf9;
+}
+
+body.dark-mode a:visited {
+    color: #ce93d8;
+}
+
+body.dark-mode a:hover {
+    color: #29b6f6;
+}
+
+/* Table styles for dark mode */
+body.dark-mode table {
+    border-color: #444;
+}
+
+body.dark-mode th {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode td {
+    background-color: #222;
+}
+
+/* Image styles for dark mode */
+body.dark-mode img {
+    border: 1px solid #444;
+    filter: brightness(0.85);
+}
+
+body.dark-mode figcaption {
+    color: #bdbdbd;
+}
+
+body.dark-mode mark {
+    background-color: #414141;
+    color: #ffab40;
+}
+
+/* List styles for dark mode */
+body.dark-mode ul li,
+body.dark-mode ol li {
+    color: #e0e0e0;
+}
+
+/* Dark mode toggle button styles */
+.dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+    z-index: 1000; /* Ensure button stays on top */
+}
+
+.dark-mode-toggle:hover {
+    background-color: #777;
+}
+
+.dark-mode-toggle .icon {
+    margin-right: 5px;
+}
+
+/* Section styling for dark mode */
+body.dark-mode section,
+body.dark-mode nav,
+body.dark-mode div {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+    color: #f0f0f0;
+    border-bottom-color: #444;
+}
+
+/* Transition effects for smooth mode switching */
+body, header, footer, nav, section, div, table, th, td, a, img, h1, h2, h3 {
+    transition: background-color 1s, color 1s, border-color 1s, filter 1s;
+}

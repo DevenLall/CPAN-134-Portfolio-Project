@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>Contact Page</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    <link rel="stylesheet" href="styleContact.css">
+    <link rel="stylesheet" href="darkmode.css">
+    <nav>
+        <ul>
+            <li><a href="AboutMe.html"target="_blank" >About Me</a></li>
+            <li><a href="resume.html"target="_blank">Resume</a></li>
+            <li><a href="projects.html"target="_blank">Projects</a></li>
+            <li><a href="Index.html"target="_blank">Home</a></li>
+        </ul>
+    </nav>
+    <button class="dark-mode-toggle" id="dark-mode-toggle">
+        <span class="text">Dark Mode</span>
+    </button>
+    <section>
+        <h2>You can contect me if you want</h2>
+        <p>If you have any questions, dont reach out to me unless it is a must.</p>
+    </section>
+
+    <section>
+        <h3>Contact Form</h3>
+        <form action="/submit-form" method="POST">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="20" required></textarea><br><br>
+
+            <button type="submit"> Submit</button>
+        </form>
+    </section>
+
+    <section>
+        <h3>Contact Information</h3>
+        <p>Phone: +123 456 7890</p>
+        <p>Email: DevensFakeEmail@Gmail.com</p>
+        <p>Address: 123 FakeAddress, Fake City, Fake Province, Fake Country</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Deven Lall</p>
+    </footer>
+    <script src="darkmode.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    padding-bottom: 60px; /* Make room for fixed footer */
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #34495e;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #3498db;
+  }
+  
+  /* Section styles */
+  section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+  }
+  
+  section p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 0.8rem;
+    text-align: left;
+    border: none;
+  }
+  
+  th {
+    background-color: #3498db;
+    color: white;
+    font-weight: 600;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #e9f7fe;
+  }
+  
+  /* List styles */
+  section ul {
+    margin: 1rem 0 1rem 2rem;
+  }
+  
+  section li {
+    margin-bottom: 0.5rem;
+    position: relative;
+  }
+  
+  section ul li::before {
+    content: "•";
+    color: #3498db;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
